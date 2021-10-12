@@ -1,0 +1,241 @@
+* {
+  margin: auto;
+}
+.Main {
+  max-width: 800px;
+  margin: auto;
+
+}
+body {
+  background-image: linear-gradient(to right,white, #89cff0);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#box {
+	display:block;
+	background-color:white;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin: 10px 0px 10px 0px;
+	padding:10px
+}
+
+#maincontent {
+	display:block;	
+	clear:both;
+	
+}
+
+
+/* REGISTER PAGE STYLING */
+#registerloginbox {
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	margin: 10px;
+}
+	
+#loginbox {
+	display:block;
+	background-color:white;
+	border: 3px solid black;
+	border-radius: 25px;
+    
+	height:250px;
+	width:250px;
+
+}
+
+#registerbox {
+	display:block;
+	background-color:white;
+	border: 3px solid black;
+	border-radius: 25px;
+	
+	height:250px;
+	width:250px;
+}
+
+#signoutbox {
+	display:block;
+	background-color:white;
+	border: 3px solid black;
+	border-radius: 25px;
+	height:200px;
+	width:250px;
+}
+
+#loginbutton {
+		border: 1px solid grey;
+		border-radius: 5px;
+		padding:10px 50px 10px 50px;
+		background-color: #00d604;
+}
+
+#textboxes {
+			border: 1px solid grey;
+			border-radius: 5px;
+			padding:5px 5px 5px 5px;
+	
+}
+
+/* NAVBAR CSS */
+.HorizontalNav {
+  border: 3px solid black;
+  border-radius: 25px;
+  
+  padding: 10px;
+  background-color: white;
+  overflow: hidden;
+  
+}
+
+.HorizontalNav a {
+  color: black;
+  font-size: 35px;
+  padding: 0px 45px 0px 45px;
+  text-decoration: none;
+}
+
+.HorizontalNav a:hover {
+  background-color: GAINSBORO;
+  color: black;
+}
+
+.HorizontalNav a.active {
+  background-color: GAINSBORO;
+}
+
+/* DYNAMIC CONTENT CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 20px;
+  display:block;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 992px) {
+	.column {
+	width: 50%;
+	}
+	.HorizontalNav a {
+	display: block;
+	text-align:center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+    width: 100%;
+		display:block;
+	}
+
+	h2 {
+		text-align:center;
+	}
+	#registerloginbox {
+		flex-direction:column;
+	}
+	
+}
+
+/* FOOTER */
+
+.Footer {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: block;
+  clear: both;
+}
+
+.Footer a {
+  float: left;
+  color: black;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.Footer a.active {
+  background-color: #d1d1d1;
+}
+/* STUFF */
+.correct {
+  background-color: green;
+  font-size: 30px;
+}
+.error {
+  background-color: red;
+  font-size: 80px;
+}
+
+.reviewbox {
+  width: 100%;
+  margin: 10px auto 10px auto;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  float: left;
+}
+
+.ReviewerTools {
+  margin: 10px auto 0px auto;
+  border: 3px solid HOTPINK;
+  padding: 10px;
+  background-color: pink;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.left {
+	text-align:left;
+
+}
+
+.right {
+	text-align: right;
+}
+
+.reviewImage {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviewDetails {
+  color:grey;
+  font-size: 10px;
+  display:inline-block;
+}
